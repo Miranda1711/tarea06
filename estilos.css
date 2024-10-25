@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    --color1: #99D9F2;
+    --color2:#05AFF2;
+    
+}
+#contenedor{
+    width: 75%;
+    margin: auto;
+    height: 100vh;
+}
+.cabecera{
+    background-color: var(--color2);
+    border:1px solid white ;
+    position: static;
+    z-index: 20;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 180px;
+}
+#logo{
+    width: 150px;
+    align-items: center;
+}
+#logo img{
+    width: 100%;
+}
+h1{
+    margin: 30px;
+    color:white;
+    font-style: oblique;
+    font-weight:bolder;
+    font-size: 40px;
+    transition: .4s ease-out;
+}
+h1:hover{
+    background-color: white;
+    color:var(--color2);
+    border-radius: 20%;
+    padding: 20px;
+    transform: scale(1,0.9);
+}
+.menu{
+    margin: auto;
+    border: 1px solid var(--color1);
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+
+    
+}
+.menu li {
+ padding:18px;
+    list-style: none;
+
+}
+.menu li a{
+    text-decoration: none;
+    font-size: 20px;
+    background-color:var(--color1);
+    padding: 5px;
+    border-radius: 20%;
+    color: white;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    border: 1px solid gray;
+    transition: .3s ease;
+    opacity: 0.5;
+}
+.menu li a:hover{
+    background-color: white;
+    border: 1px solid gray;
+    font-style: italic;
+    color:var(--color1);
+    box-shadow: 1px 5px 0px 0px rgba(94,89,89,0.75);
+    font-family: "Noto Sans", sans-serif;
+    opacity: 1;
+
+
+}
+article{
+    margin-bottom: 20px;
+}
+#contenido{
+    border: 1px solid var(--color1);
+    display: flex;
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+    font-family: "Arima", system-ui;
+    font-weight: 600;
+    color:rgb(102, 102, 136);
+transition: .4s ease;
+
+}
+
+#titulo h2:hover{
+    color: rgb(90, 153, 211);
+    cursor: pointer;
+    text-decoration: underline;
+    transform: translate(20px, 10px) ;
+}
+.video{
+    width: 70%;
+    margin: 25px;
+ border: 1px dotted gray;
+ background-color: rgb(252, 252, 252);
+ 
+
+
+}
+
+
+.youtube{
+
+ position: relative;
+ margin: 25px;
+ padding-bottom: 46.21%; /* 16:9 */
+ height: 0;
+ top: 0;
+ left: 0;
+ right: 0;
+ 
+
+}
+
+.youtube iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.texto{
+    background-color:rgb(188, 217, 221);
+    color: white;
+text-align: center;
+margin: 20px;
+padding: 6px;
+border: 2px solid white;
+box-shadow: 1px 2px 0px 0px rgba(140,155,191,0.75);
+
+}
+.texto:hover{
+    background-color: rgb(222, 229, 231);
+    color:rgb(238, 238, 238);
+    
+
+}
+h3{
+    padding: 5x;
+    font-size: 25px;
+    text-shadow: 0px 2px 4px rgba(78, 35, 35, 0.6);
+   font-style: oblique;
+
+}
+.publicidad{
+    width: 40%;
+    margin: 30px;
+ border: 1px dotted gray;
+ background-color: rgb(252, 252, 252);
+
+}
+.imagen{
+margin-top: 40px;
+  padding: 10px;
+  height: 40vh;
+  width: 300px;
+}
+.imagen img{
+    width: 100%;
+    opacity: 0.8;
+    min-height: 100%;
+    
+}
+
+.imagen img:hover{
+   opacity: 1;
+}
+.imagen2{
+    padding: 10px;
+ opacity: 0.8;
+  width: 300px;
+ 
+}
+.imagen2 img{
+
+        width: 100%;
+        opacity: 0.8;
+        
+        height: 60vh;
+}
+.imagen2 img:hover{
+    opacity: 1;
+}
+
+/*video*/
+.contenido{
+    border:1px solid var(--color1);
+    padding: 20px;
+
+}
+aside{
+    border:1px dotted grey;
+    margin:20px;
+    padding:5px;
+    text-align: center;
+    background-color: rgb(246, 248, 248);
+}
+
+aside h5{
+    padding:10px;
+    background-color: #d1e2e9;
+    border: 1px solid white;
+    margin-bottom:30px ;
+    font-size: 35px;
+    margin: 10px;
+    font-style: oblique;
+    color: white;
+    text-shadow: -1px 2px 2px rgba(169,36,36,0.6);
+
+    letter-spacing: 7px;
+    transition: 0.5s ease-in-out;
+    font-family: "DynaPuff", system-ui;
+
+}
+aside h5:hover{
+    background-color: rgb(241, 240, 240);
+    color:#d1e2e9;
+    box-shadow: 2px 4px 3px 0px rgba(84, 115, 134, 0.75);
+
+
+}
+.video1{
+    padding-bottom: 56,21%;
+    margin-top: 10px;
+    
+}
+.texto2{
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+padding: 10px;
+border: 1px solid grey;
+margin-top: 10px;
+}
