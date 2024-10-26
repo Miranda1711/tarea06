@@ -74,6 +74,7 @@ h1:hover{
     list-style-type: none;
     position: relative;
     z-index: 4;
+        opacity: 0.4;
 
     
 }
